@@ -1,75 +1,33 @@
-# CS 2420 Final Project - Playlist Manager
+# CS 2420 Final Project – Playlist Manager
 
-## 📌 Project Description
-This project is a Playlist Manager that allows users to store, manage, and organize songs.  
-It demonstrates the use of multiple data structures and algorithms including a vector-based playlist, a linked list-based playlist, and sorting functionality.
+## Description
+This project is a playlist manager that lets users add, remove, search, and sort songs.  
+It uses different data structures to show how they work in a real program.
 
-The playlist contains example songs from BLACKPINK and CORTIS to demonstrate functionality.
-
----
-
-## 🎵 Features
-- Add songs to playlist
-- Remove songs from playlist
+## Features
+- Add songs
+- Remove songs
 - Search for songs
-- Display all songs (traversal)
-- Sort songs alphabetically
+- Display playlist
+- Sort songs
 
----
+## Data Structures Used
+- Vector (dynamic array for storing songs)
+- Linked List (node-based structure)
+- Sorting (std::sort)
 
-## 🧠 Data Structures Used
+## Why These Were Used
+Vector is simple and fast for adding and accessing songs.  
+Linked list shows how pointers and dynamic memory work.  
+Sorting helps organize the playlist.
 
-### 1. Vector Playlist
-- Used for dynamic array storage of songs
-- Fast insertion at end
-- Easy access and sorting
+## How to Run
+1. Open in Visual Studio  
+2. Build (Ctrl + Shift + B)  
+3. Run (Ctrl + F5)
 
-### 2. Linked List Playlist
-- Used for dynamic node-based storage
-- Demonstrates pointer manipulation
-- Efficient for insertion/deletion in list structure
+## Big-O Analysis
+See `big-o-analysis.md` for time and space complexity.
 
-### 3. Sorting Algorithm
-- Uses built-in sorting (`std::sort`)
-- Organizes songs alphabetically
-
----
-
-## 📊 Why These Structures Were Used
-Vectors were chosen for simplicity and fast access, while linked lists demonstrate manual memory management and pointer-based data handling. Sorting was added to improve usability and demonstrate algorithmic thinking.
-
----
-
-## 🎶 Sample Songs Used
-- BLACKPINK - Pink Venom
-- BLACKPINK - How You Like That
-- BLACKPINK - DDU-DU DDU-DU
-- CORTIS - Song 1
-- CORTIS - Song 2
-
----
-
-## 🚀 How to Run the Project
-
-1. Open the project in Visual Studio
-2. Build the solution (Ctrl + Shift + B)
-3. Run the program (Ctrl + F5)
-
-Make sure all `.cpp` and `.h` files are included in the project.
-
----
-
-## 📄 Big-O Analysis
-See `big-o-analysis.md` for full time and space complexity analysis of all data structures and algorithms used.
-
----
-
-## 🎥 Video Demo
-https://your-youtube-link-here
-
-(Replace with your unlisted YouTube video link)
-
----
-
-## 👨‍💻 Author
-CS 2420 Student Project
+## Video Demo
+https://studio.youtube.com/channel/UCmtKsZRBa2LMBNIONqcAzoQ/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D
