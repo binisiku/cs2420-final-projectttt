@@ -1,5 +1,10 @@
 # CS 2420 Final Project – Playlist Manager
 
+## Video Demo
+https://youtu.be/RV3GTGh_LaY
+
+
+
 ## Description
 This project is a playlist manager that lets users add, remove, search, and sort songs.  
 It uses different data structures to show how they work in a real program.
@@ -29,5 +34,3 @@ Sorting helps organize the playlist.
 ## Big-O Analysis
 See `big-o-analysis.md` for time and space complexity.
 
-## Video Demo
-https://studio.youtube.com/channel/UCmtKsZRBa2LMBNIONqcAzoQ/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D
